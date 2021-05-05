@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.halo-container, .halo-container2, .halo-container3 , .halo-container4{
+    width: 1200px;
+    margin: auto;
+}
+body{
+    font-family: poppins, Helvetica, sans-serif;
+} 
+.navbar-brand{
+    float: left;
+    padding: 31px 0;
+}
+.navbar-nav{
+    margin-top: 31px;
+}
+.nav-item a{
+    font-size: 14;
+    font-weight: 600;
+    margin-left: 42px;
+}
+#home-section{
+    background-image: url('../images/scott-graham-OQMZwNd3ThU-unsplash 1.png');
+    background-repeat: no-repeat;
+    min-height: 708px;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: top;
+}
+
+.hero-heading{    
+font-family: Poppins;
+font-weight: 600 !important;
+font-size: 50px;
+line-height: 65px;
+color: #FFFFFF;
+width: 600px;
+padding-top: 300px;
+text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.nav-btn{
+    border: 2px solid #524B9F;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.text-hero{
+    margin-top: 15px;
+    font-size: 21px;
+    color: white;
+    font-weight: 500;
+    line-height: 40px;
+    width: 587px;
+}
+.hero-card{
+   background: #524B9F;
+    border-radius: 3px;
+    background-image: url(../images/icon-HL%201.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 67px 25px 57px 25px;
+
+}
+.hero-card h3{
+    font-size: 24;
+    font-weight: 600;
+    line-height: 36px;
+    color: white;
+    
+}
+.hero-card button, .cta-btn{
+    padding: 9px 25px;
+    border-radius: 10px;
+    background: #EF4136;
+    color: white;
+    font-weight: 600;
+    font-size: 18;
+    margin-top: 30px;
+}
+.hero-icon{
+    background: white;
+    box-shadow: 0px 5px 05px #888888;
+    border-radius: 14px;
+    text-align: center;
+    margin:auto;
+    padding: 20px 0px 20px 0px;
+    
+}
+.hero-icon img{
+    margin: 0px 10px 20px 0px;
+}
+.row{
+    margin-top: -120px;
+}
+.row-hukum{
+    margin-top: 100px;
+}
+.col-6 img{
+    display: inline;
+}
+.side-card{
+    display: inline;
+    float: left;
+    clear: both;
+}
+.card-section{
+    padding-left: 50px
+}
+.card-section img{
+    margin-left:70px;
+    margin-bottom: 50px;
+}
+.card-image{
+    width: 88px;
+    height: 90px;
+    display: inline;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.card{
+    width: 85%;
+    height: 80%;
+    margin-top: 160px;
+    margin-left: 5px;
+    padding: 0px 40px 0px 50px;
+    box-shadow: 05px 05px 10px #888888;
+}
+.card h4{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.card button{
+    padding: 9px 25px;
+    border-radius: 10px;
+    background: #EF4136;
+    color: white;
+    font-weight: 400;
+    font-size: 15;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.bg-c{
+    background-color: #F6F6FA;
+}
+
+.info-hukum h1{
+    padding-top: 50px;
+}
+
+.halo-container3{
+    margin-top: 150px;
+}
+
+
+.halo-container4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hatoon{
+    border-radius: 50px;
+}
+.card-hatoon{
+    padding: 50px;
+}
+.cta{
+    background-image: url(../images/Asset%201-8.png);
+    min-height: 341px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;;
+    padding-bottom: 200px;
+}
+.halo-container h6{
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    padding: 0px 300px;
+}
+
+.ph1{
+    color: #716BB0;
+}
+
+.pe1{
+    color: #929294;
+}
+
+.cta-input{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 20px;
+}
+.footer{
+    min-height: 394px;
+    background: #393838;
+}
+.footer-card{
+    margin-top: 100px;
+    color: white;
+}
+.footer-card a{
+    color: wheat;
+}
+
+.copyrights{
+    background: #2C2C2C;
+    min-height: 65px;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
+.layanan{
+    margin-top: 100px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.footer-card {
+  flex: 25%;
+  padding: 20px;
+}
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .footer-card {
+    flex: 50%;
+    margin-top: 30px;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    margin: auto;
+    padding-left: 100px;
+  }
+    .footer-card {
+        margin-top: 30px;
+    }
+}
